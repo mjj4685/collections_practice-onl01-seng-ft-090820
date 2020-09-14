@@ -57,8 +57,8 @@ def sum_array(array)
     sum+=num
   end
   sum
-end 
-sum_array([11,4,7,8,9,100,134]) 
+end
+sum_array([11,4,7,8,9,100,134])
 
 def add_s(array)
   array.collect do |word|
@@ -70,4 +70,4 @@ def add_s(array)
   end
 end
 
-add_s(["hand","feet", "knee", "table"]) 
+add_s(["hand","feet", "knee", "table"])
