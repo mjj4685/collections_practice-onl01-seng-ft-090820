@@ -53,19 +53,19 @@ find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
 
 def sum_array(array)
   sum = 0
-  array.each do |num|
-    sum+=num
+  array.each do |chicken|
+    sum+=chicken
   end
   sum
 end
 sum_array([11,4,7,8,9,100,134])
 
 def add_s(array)
-  array.collect do |word|
-    if array[1] == word
-      word
+  array.collect do |mug|
+    if array[1] == mug
+      mug
     else
-      word + "s"
+      mug + "s"
     end
   end
 end
