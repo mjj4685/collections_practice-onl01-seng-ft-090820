@@ -45,4 +45,8 @@ kesha_maker(["Max", "Mia", "Bella"])
 def find_a(array)
   array.find_all do |waldo|
     waldo[0] == "a"
+    
   end
+
+end
+
