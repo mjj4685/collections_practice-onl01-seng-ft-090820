@@ -47,5 +47,27 @@ def find_a(array)
     waldo[0] == "a"
 
   end
-
 end
+
+find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) #["apple", "avis", "arlo", "ascot"]
+
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+end 
+sum_array([11,4,7,8,9,100,134]) 
+
+def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
+
+add_s(["hand","feet", "knee", "table"]) 
