@@ -6,7 +6,7 @@ end
 sort_array_asc([25, 7, 1])
 
 def sort_array_desc(array)
-  array.sort do | bob, right|
+  array.sort do | bob, susan|
     susan <=> bob
   end
 end
@@ -26,23 +26,23 @@ def swap_elements(array)
   array
 end
 
-swap_elements(["blake", "ashley", "scott"])
+swap_elements(["Max", "Mia", "Bella"])
 
 def reverse_array(array)
   array.reverse
 end
 
-reverse_array(["blake", "ashley", "scott"])
+reverse_array(["Max", "Mia", "Bella"])
 
 def kesha_maker(array)
-  array.each do |item|
-    item[2] = "$"
+  array.each do |holla|
+    holla[2] = "$"
   end
 end
 
-kesha_maker(["blake", "ashley", "scott"])
+kesha_maker(["Max", "Mia", "Bella"])
 
 def find_a(array)
-  array.find_all do |word|
-    word[0] == "a"
+  array.find_all do |waldo|
+    waldo[0] == "a"
   end
