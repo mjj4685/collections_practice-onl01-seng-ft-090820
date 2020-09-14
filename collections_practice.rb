@@ -6,8 +6,8 @@ end
 sort_array_asc([25, 7, 1])
 
 def sort_array_desc(array)
-  array.sort do | bob, susan|
-    susan <=> bob
+  array.sort do | Max, susan|
+    Mia <=> Max
   end
 end
 
